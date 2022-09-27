@@ -1,0 +1,58 @@
+.searchbox{
+    /* background-color: rgb(244, 148, 148); */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap: 1rem;
+}
+.searchbtn{
+    background-color: blue;
+    color: white;
+    border-radius: .3rem;
+    padding: .5rem 1rem;
+    text-transform: capitalize;
+
+}
+.searchbtn:hover{
+    background-color: rgb(61, 61, 139);
+    
+}
+.flexcol{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap: 1rem;
+    position: relative;
+    
+}
+.card-error p{
+    /* background-color: white; */
+    color: rgb(202, 22, 22);
+    
+    
+    z-index: 100000;
+    /* padding: .4rem .6rem;
+    border-radius: .3rem; */
+
+    
+}
+.searchinfo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+     gap :1rem;
+   
+}
+.searchinfo input{
+    border-radius: .3rem;
+    padding: .5rem 1rem;
+
+    background: 2px solid black;
+     
+     text-decoration: none;
+    outline:none;
+}
+.searchinfo input:focus{
+    border: 2px solid blue;
+   
+}

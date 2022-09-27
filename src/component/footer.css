@@ -1,0 +1,30 @@
+footer{
+    bottom: 0;
+    position: fixed;
+
+    background-color: rgba(57, 24, 24, 0.711);
+    width: 100%;
+    
+}
+.follow{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: .6rem .8rem;
+}
+.follow ul{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap: 2rem;
+}
+.follow li{
+    color: rgb(243, 219, 219);
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+.copyd{
+    color: rgb(251, 234, 234);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
